@@ -18,9 +18,10 @@ the main LDES specification is available at [https://w3id.org/ldes/specification
 
 # UML Diagram # {#uml}
 
-<a href="ldes-model.puml">
+<figure id="fig-ldes-model">
 <img src="ldes-model.svg" alt="LDES model diagram">
-</a>
+<figcaption>LDES model diagram (<a href="ldes-model.puml">source</a>)</figcaption>
+</figure>
 
 # Terms # {#terms}
 
