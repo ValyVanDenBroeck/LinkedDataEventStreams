@@ -17,6 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+       # Render .puml to .svg
+      - name: Render PlantUML diagrams to SVG
+        uses: redhat-plumbers-infra/plantuml-action@v1
+        with:
+          args: -r -tsvg .
+
       - name: Publish Bikeshed document
         uses: w3c/spec-prod@v2
         with:
