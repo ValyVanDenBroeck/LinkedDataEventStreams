@@ -5,7 +5,7 @@ Linked Data Event Streams (LDES) is an initiative to, as a data publisher, find 
 LDES includes:
  * A [vocabulary](https://w3id.org/ldes) that introduces terms to talk about an `ldes:EventStream`
  * An example JSON-LD context that can be accessed from [here](https://w3id.org/ldes/context). It includes the JSON labels we recommend to use in JSON-LD documents. This document may however change over time and does not come with any waranties cfr. uptime. When building for a production environment, do thus not use this URL as an external context.
- * A [consumer oriented specification](https://w3id.org/specification). You can use this spec if you want to implement an LDES client or consumer pipeline.
+ * A [consumer oriented specification](https://w3id.org/ldes/specification). You can use this spec if you want to implement an LDES client or consumer pipeline.
  * A [server primer](https://w3id.org/ldes/server-primer) that you can consult when building an LDES as a data provider.
 
 The LDES specification uses the W3C [TREE hypermedia specification](https://w3id.org/tree/specification) for creating paginated search tree of event stream pages.
